@@ -1,0 +1,300 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.header {
+  min-height: 800px;
+  margin-bottom: 120px;
+}
+.header-table {
+  min-width: 630px;
+  min-height: 800px;
+  background: url(../img/header-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.header-container {
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+.nav-link.active {
+  color: #daa520 !important;
+}
+
+.text-sartenes {
+  position: relative;
+  top: -263px
+}
+
+.woodies-text-center {
+  display: flex;
+  align-items: center;
+}
+.woodies-furniture h3 {
+  color: #3e3f43;
+  font-size: 2.25rem;
+}
+.woodies-furniture p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.incono {
+  height: 40px;
+  background: url(../img/incono.jpg);
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.incono h3 {
+  color: 3E3F43;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.incono h1 {
+  color: 222222;
+font-size: 4.5rem;
+}
+
+
+.header-sartenes {
+  background: url(../img/header-sartenes.jpg);
+  display: flex;
+  padding: 25px;
+  min-height: 384px;
+  min-width: 287px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text-gray-opacity {
+  color: rgb(34, 34, 34, 0.1);
+  font-size: 4.5rem;
+}
+
+#galeria-works .col-lg-3 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria-works img {
+  display: flex;
+  width: 120px;
+  height: 120px
+}
+
+.rectangle-pink1 {
+  background: url(../img/rectangle-pink.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.desk {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  padding: auto;
+  height: 224px;
+  width: 246px;
+  top: 122px;
+  position: absolute;
+}
+
+#galeria-categories .col-lg-4 {
+  display: flex;
+  margin: 0 !important;
+  padding: 25px;
+}
+
+.encabezado-desk {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-desk {
+  position: absolute;
+  display: flex;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangle-yellow1 {
+  background: url(../img/Rectangle-yellow.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 56px;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.chair {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 235px;
+  width: 165.25px;
+  top: 122px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-chair {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-chair {
+  position: absolute;
+  display: flex;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangle-blue {
+  background: url(../img/Rectangle-blue.png);
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 56px;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.kitchenware {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 200px;
+  width: 181.01px;
+  top: 122px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-kitchenware {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-kitchenware {
+  display: flex;
+  position: absolute;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangle-pink2 {
+  background: url(../img/rectangle-pink.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.book-shelf {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 235px;
+  width: 148.82px;
+  top: 550px;
+  padding-left: 45px;
+  position: absolute;
+}
+
+.encabezado-book-shelf {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 150 px;
+}
+
+.button-book-shelf {
+  position: absolute;
+  display: flex;
+  top: 825px;
+  padding-left: 165px;
+}
+
+.electronics {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 139.12px;
+  width: 235px;
+  top: 600px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-electronics {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 110 px;
+}
+
+.button-electronics {
+  position: absolute;
+  display: flex;
+  top: 825px;
+  padding-left: 165px;
+}
+
+.room-1 {
+  background: url(../img/room-1.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 320px;
+  width: 240px;
+  left: 0%;
+  top: 0;
+}
+
+.room-2 {
+  background: url(../img/room-2.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 25px;
+  height: 320px;
+  width: 240px;
+  left: 0%;
+  top: 0;
+}
+
